@@ -1,0 +1,72 @@
+// Settings in here override those in "GitSavvy/GitSavvy.sublime-settings",
+
+{
+
+    /*
+        Enter your github API key in the field below.  To interact with
+        a GitHub Enterprise instance, add a field with the FQDN as the key
+        and the API key as the value.
+     */
+    "api_tokens": {
+        // "github.com": "ADD YOUR TOKEN HERE"
+    },
+
+    /*
+        Change this to `true` to scroll to the first hunk automatically when
+        you open the inline-diff view.
+     */
+    "inline_diff_auto_scroll": true,
+
+    /*
+        Add entries to this array (e.g. "pull" or "push") if you'd like the
+        output of these Git commands to always be shown in a panel.
+     */
+    "show_panel_for": ["pull"],
+
+    /*
+        Add entries to this array (e.g. "pull" or "push") if you'd like any
+        open panel to be closed at the beginning of the operation.
+     */
+    "close_panel_for": [],
+
+    /*
+        When entering a tag message, this will be used if the message is empty.
+        The replacement value "{tag_name}" is optional, but recommended.
+     */
+    "default_tag_message": "Tag {tag_name}",
+
+    /*
+        When set to `true,`, GitSavvy will display the full diff of the current
+        commit in the output panel.
+    */
+    "show_full_commit_info": true,
+
+    /*
+        When set to `true`, closing the commit message window will result in a commit
+        action being taken, except in cases where the message is empty.  The same is
+        also true for amending commits.
+     */
+    "commit_on_close": false,
+
+    /*
+        GitSavvy allows you to press `Tab` to cycle from one dashboard interface
+        to the next.  This setting defines the order of that cycle.  The following
+        are valid entries, and can be included in your preferred order:
+
+            status
+            branch
+            rebase
+            tags
+            graph
+
+     */
+    "tab_order": [
+        "status",
+        "branch",
+        // "rebase",
+        // "tags",
+        "graph"
+    ],
+
+
+}

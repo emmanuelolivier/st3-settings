@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AlignTab",
+		"BracketHighlighter",
+		"EditorConfig",
+		"FileDiffs",
+		"GitGutter",
+		"GitSavvy",
+		"Jedi - Python autocompletion",
+		"JSON Reindent",
+		"Language - French - Français",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"SortBy",
+		"SublimeLinter",
+		"SublimeLinter-coffeelint",
+		"SublimeLinter-flake8"
+	]
+}

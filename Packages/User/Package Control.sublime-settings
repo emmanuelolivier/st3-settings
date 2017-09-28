@@ -5,22 +5,24 @@
 	],
 	"installed_packages":
 	[
-		"A File Icon",
 		"AlignTab",
 		"BracketHighlighter",
 		"EditorConfig",
 		"FileDiffs",
 		"GitGutter",
 		"GitSavvy",
+		"Highlight",
 		"Jedi - Python autocompletion",
 		"JSON Reindent",
 		"Language - French - Français",
+		"Markdown Extended",
 		"Package Control",
 		"PackageResourceViewer",
 		"SideBarEnhancements",
 		"SortBy",
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
-		"SublimeLinter-flake8"
+		"SublimeLinter-flake8",
+		"Theme - Afterglow"
 	]
 }

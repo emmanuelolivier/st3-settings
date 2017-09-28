@@ -1,10 +1,16 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_white_space": "selection",
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"status_bar_brighter": true,
+	"tabs_padding_medium": true,
+	"tabs_small": true,
+	"theme": "Afterglow.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }

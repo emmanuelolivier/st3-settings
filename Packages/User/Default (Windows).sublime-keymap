@@ -1,0 +1,87 @@
+[
+    // Pour afficher la selection rapide de projet
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+
+
+
+    // Pour montrer dans l'arborécense le fichier que l'on est en train d'éditer
+    { "keys": ["ctrl+alt+r"], "command": "reveal_in_side_bar" },
+
+
+
+    // Pour copier le texte sélectionné en concervant les couleurs
+    // Utile pour mettre du code dans des mails ou des slides
+    {
+        "keys": ["ctrl+shift+c"],
+        "command": "sublime_highlight",
+        "args": {
+            "target": "clipboard",
+            "output_type": "rtf"
+        }
+    },
+
+
+
+    // Pour découper l'affichage en sous-fenetres
+    {
+        "keys": ["ctrl+super+alt+left"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.33, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "keys": ["ctrl+super+alt+right"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.66, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "keys": ["ctrl+super+alt+up"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    {
+        "keys": ["alt+1"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    {
+        "keys": ["alt+2"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "keys": ["ctrl+super+alt+down"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+
+]

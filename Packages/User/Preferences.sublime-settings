@@ -6,9 +6,13 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
+		"StatusMessage",
 		"Vintage"
 	],
+	"show_encoding": true,
+	"show_line_endings": true,
 	"status_bar_brighter": true,
+	"sublime_enhanced_keybindings": true,
 	"tabs_padding_medium": true,
 	"tabs_small": true,
 	"theme": "Afterglow.sublime-theme",

@@ -7,10 +7,13 @@
 	[
 		"AlignTab",
 		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr_Python",
 		"EditorConfig",
 		"FileDiffs",
 		"GitGutter",
 		"GitSavvy",
+		"GotoLastEditEnhanced",
 		"Highlight",
 		"Jedi - Python autocompletion",
 		"JSON Reindent",
@@ -20,9 +23,12 @@
 		"PackageResourceViewer",
 		"SideBarEnhancements",
 		"SortBy",
+		"StatusMessage",
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-flake8",
-		"Theme - Afterglow"
+		"Theme - Afterglow",
+		"ToggleWrap",
+		"Unicode Character Highlighter"
 	]
 }
